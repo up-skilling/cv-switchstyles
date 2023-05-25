@@ -47,6 +47,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     max-width: 1080px;
+    height: 1200px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -265,4 +266,29 @@ div.about-me .section-content {
     left: 1px;
     margin-right: 4px;
     font-size: 18px;
+}
+
+/*** div.theme-selector ***/
+div.theme-selector {
+    position: relative;
+    top: -180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    column-gap: 10px;
+    order: 5;
+}
+
+.theme-selector label {
+    color: #15697D;
+}
+
+.theme-selector select {
+    padding: 5px 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
 }

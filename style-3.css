@@ -284,3 +284,28 @@ div.about-me .section-content {
     margin-right: 4px;
     font-size: 18px;
 }
+
+/*** div.theme-selector ***/
+div.theme-selector {
+    position: relative;
+    top: -255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    column-gap: 10px;
+    order: 5;
+}
+
+.theme-selector label {
+    color: #4682b4;
+}
+
+.theme-selector select {
+    padding: 5px 8px;
+    background-color: #ebf2ff;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+}

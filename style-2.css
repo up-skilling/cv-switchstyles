@@ -48,7 +48,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     max-width: 1080px;
-    height: 1200px;
+    height: 1250px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -188,7 +188,7 @@ div.about-me {
     width: 32%;
     max-width: 344px;
     background-color: #15697D;
-    order: 3;
+    order: 4;
     row-gap: 20px;
 }
 
@@ -252,4 +252,28 @@ div.about-me .section-content {
     left: 1px;
     margin-right: 4px;
     font-size: 18px;
+}
+
+/*** div.theme-selector ***/
+div.theme-selector {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 110px;
+    column-gap: 10px;
+    order: 3;
+}
+
+.theme-selector label {
+    color: #4b0082;
+}
+
+.theme-selector select {
+    padding: 5px 8px;
+    background-color: #15697D;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
 }

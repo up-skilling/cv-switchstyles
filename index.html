@@ -5,17 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Switch Styles</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style-1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Spectral">
 </head>
 <body>
-    <header>
-        <h1>TAIGNIERE Gilles</h1>
-        <h2>DEVELOPPEUR FULLSTACK JAVA/ANGULAR</h2>
 
-        <div class="presentation">
-            <p>Après plus de 20 ans en tant que technicien de maintenance en informatique au cours desquels j’ai développé une appétence pour la programmation, j’ai souhaité approfondir mes connaissances en me réorientant vers le monde du développement logiciel.</p>
-            <p>J’ai donc intégré le cursus UDev proposé par CGI qui m’a permis de valider un titre RNCP de Concepteur Développeur d’Applications Numériques. Curieux et ouvert à la découverte d’autres technologies, je suis actuellement à la recherche d’un poste en tant que Développeur Web.</p>
+    <header class="header">
+        <div>
+            <h1>TAIGNIERE Gilles</h1>
+            <h2>DEVELOPPEUR FULLSTACK JAVA/ANGULAR</h2>
+
+            <hr>
+
+            <div class="presentation">
+                <p>Après plus de 20 ans en tant que technicien de maintenance en informatique au cours desquels j’ai développé une appétence pour la programmation, j’ai souhaité approfondir mes connaissances en me réorientant vers le monde du développement logiciel.</p>
+                <p>J’ai donc intégré le cursus UDev proposé par CGI qui m’a permis de valider un titre RNCP de Concepteur Développeur d’Applications Numériques. Curieux et ouvert à la découverte d’autres technologies, je suis actuellement à la recherche d’un poste en tant que Développeur Web.</p>
+            </div>
         </div>
     </header>
 
@@ -78,13 +84,17 @@
             </article>
 
             <article>
-                <h4>1993-1995</h4>
-                <p>Responsable technique <span class="organisation">DRUCK-Courbevoie-92</span></p>
+                <div class="div-header">
+                    <h4>1993-1995</h4>
+                    <p>Responsable technique <span class="organisation">DRUCK-Courbevoie-92</span></p>
+                </div>
             </article>
 
             <article>
-                <h4>1993</h4>
-                <p>Service militaire <span class="organisation">57<sup>ème</sup> régiment de transmission-Mulhouse-68</span></p>
+                <div class="div-header">
+                    <h4>1993</h4>
+                    <p>Service militaire <span class="organisation">57<sup>ème</sup> régiment de transmission-Mulhouse-68</span></p>
+                </div>
             </article>
         </section>
 
@@ -148,66 +158,75 @@
             </article>
 
             <article>
-                <h4>2014</h4>
-                <p>Administration de Bases de Données (Oracle), en Business Intelligence, et ITIL <span class="organisation">Demos-Pantin-93</span></p>
+                <div class="div-header">
+                    <h4>2014</h4>
+                    <p>Administration de Bases de Données (Oracle), en Business Intelligence, et ITIL <span class="organisation">Demos-Pantin-93</span></p>
+                </div>
             </article>
 
             <article>
-                <h4>2013</h4>
-                <p>Diplôme d'Informaticien Réseaux (TSMIR) - Niveau III <span class="organisation">IPREC-Paris</span></p>
+                <div class="div-header">
+                    <h4>2013</h4>
+                    <p>Diplôme d'Informaticien Réseaux (TSMIR) - Niveau III <span class="organisation">IPREC-Paris</span></p>
+                </div>
             </article>
 
             <article>
-                <h4>1991</h4>
-                <p>Baccalauréat Professionnel d’électronique options Maintenance en micro-informatique <span class="organisation"></span>IPI-Puteaux-92</p>
+                <div class="div-header">
+                    <h4>1991</h4>
+                    <p>Baccalauréat Professionnel d’électronique options Maintenance en micro-informatique <span class="organisation">IPI-Puteaux-92</span></p>
+                </div>
             </article>
         </section>
     </main>
 
+    <div class="vertical-line"></div>
+
     <div class="about-me">
         <div class="photo">
-            <img src="portrait-gilles.jpg" alt="picture-gilles.jpg">
+            <img src="port-gilles.jpg" alt="picture-gilles.jpg">
         </div>
 
         <section>
             <h3>CONTACT</h3>
             <div class="section-content">
                 <ul>
-                    <li class="email">gtaigniere@gmail.com</li>
-                    <li class="phone">06 66 66 66 66</li>
+                    <li><span class="email material-symbols-outlined">mail</span>gtaigniere@gmail.com</li>
+                    <li><span class="phone material-symbols-outlined">smartphone</span>06 66 66 66 66</li>
                     <li>Marié, un enfant</li>
                     <li>RQTH / Permis B</li>
                 </ul>
             </div>
         </section>
+
         <section>
             <h3>COMPETENCES</h3>
             <div class="section-content">
                 <ul>
-                    <li>Conception de modèles relationnels de bases de données</li>
-                    <li>Diagrammes de cas d'utilisation et de classes</li>
-                    <li>Développement de sites web : HTML, CSS, JavaScript, PHP, SQL</li>
-                    <li>Utilisation de la méthode AGILE</li>
-                    <li>Reporting quotidiens d'activité sur Excel</li>
-                    <li>Correspondant de déploiement</li>
-                    <li>Administration sysytèmes et réseaux</li>
-                    <li>Mise en place d'un serveur de base de données Oracle</li>
-                    <li>Installation de systèmes de personnalisation de badges</li>
-                    <li>Support et formation des utilisateurs</li>
-                    <li>Responsable du transfert de compétences de l'équipe</li>
+                    <li>Conception de modèles relationnels de bases de données.</li>
+                    <li>Diagrammes de cas d'utilisation et de classes.</li>
+                    <li>Développement de sites web : HTML, CSS, JavaScript, PHP, SQL.</li>
+                    <li>Utilisation de la méthode AGILE.</li>
+                    <li>Reporting quotidiens d'activité sur Excel.</li>
+                    <li>Correspondant de déploiement.</li>
+                    <li>Administration systèmes et réseaux.</li>
+                    <li>Mise en place d'un serveur de base de données Oracle.</li>
+                    <li>Installation de systèmes de personnalisation de badges.</li>
+                    <li>Support et formation des utilisateurs.</li>
+                    <li>Responsable du transfert de compétences de l'équipe.</li>
                 </ul>
             </div>
         </section>
+
         <section>
             <h3>OUTILS</h3>
             <div class="section-content">
                 <ul>
-                    <li><span class="bold">Langages : </span>HTML, CSS, JavaScript, PHP, Java, SQL, Kotlin</li>
-                    <li><span class="bold">SGBDR : </span>Oracle 11gR2, MySQL</li>
-                    <li><span class="bold">Systèmes : </span>Unix, Linux, Windows Server</li>
-                    <li><span class="bold">Softwares : </span><span class="italic">Installation et configuration : </span>Pack
-                        Office, VMWare Workstation, Hyper-V, Oracle VM VirtualBox, PhpStorm, Git, Android Studio.</li>
-                    <li><span class="bold">Langue étrangère : </span>Anglais technique</li>
+                    <li><span class="bold">Langages : </span>HTML, CSS, JavaScript, PHP, Java, SQL.</li>
+                    <li><span class="bold">SGBDR : </span>Oracle 11gR2, MySQL.</li>
+                    <li><span class="bold">Systèmes : </span>Linux, Windows Server.</li>
+                    <li><span class="bold">Softwares : </span>WebStorm, Intellij, PhpStorm, Git, Docker, Android Studio, Visual Studio Code, Oracle VM VirtualBox.</li>
+                    <li><span class="bold">Langue : </span>Anglais technique.</li>
                 </ul>
             </div>
         </section>

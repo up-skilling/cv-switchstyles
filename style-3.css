@@ -1,0 +1,286 @@
+/***** Reset CSS *****/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/***** BEGIN *****/
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1080px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h4, h5, h6 {
+    font-family: 'Spectral', serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+/*** header ***/
+.header {
+    display: flex;
+    justify-content: end;
+    width: calc(100% - 4px);
+    order: 1;
+    padding-top: 25px;
+}
+
+.header > div {
+    display: flex;
+    flex-direction: column;
+    width: calc(64% - 52px);
+    max-width: 692px;
+    padding: 0 25px 18px;
+}
+
+.header > div div {
+    padding: 0 5px 0 1px;
+}
+
+.header h1 {
+    font-size: 3em;
+    order: 1;
+}
+
+.header h2 {
+    position: relative;
+    top: -110px;
+    font-weight: normal;
+    color: white;
+    order: 4;
+    z-index: 6;
+}
+
+.header > div h1, .header > div h2 {
+    margin-bottom: 16px;
+}
+
+.header hr {
+    position: relative;
+    top: -58px;
+    left: -414px;
+    width: 1072px;
+    height: 66px;
+    background-color: #4682b4;
+    color: #4682b4;
+    border: none;
+    z-index: 3;
+    order: 3;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    row-gap: 6px;
+    order: 2;
+}
+
+.presentation p:last-child {
+    position: relative;
+    top: 98px;
+}
+
+/*** main ***/
+main {
+    position: relative;
+    top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(64% - 50px);
+    max-width: 692px;
+    order: 4;
+    padding: 0 18px 0 22px;
+    row-gap: 20px;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    row-gap: 12px;
+}
+
+main h3 {
+    width: 100%;
+    padding: 4px 0 2px;
+    border-bottom: 3px solid #4682b4;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    row-gap: 3px;
+}
+
+article header, .div-header {
+    display: flex;
+    width: 100%;
+    column-gap: 5px;
+}
+
+article header h4, .div-header h4 {
+    min-width: 76px;
+    padding-top: 1px;
+    text-align: left;
+}
+
+article header p, .div-header p {
+    width: 100%;
+}
+
+.organisation {
+    color: #4682b4;
+}
+
+article > ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 81px;
+    width: 100%;
+    row-gap: 5px;
+}
+
+.enumeration {
+    display: flex;
+    flex-direction: row;
+}
+
+.enumeration li:not(:last-child)::after {
+    padding-right: 4px;
+    content: " /";
+}
+
+/*** ligne-verticale ***/
+.vertical-line {
+    display: none;
+}
+
+/*** div.about-me ***/
+div.about-me {
+    position: relative;
+    top: -364px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    width: 36%;
+    max-width: 388px;
+    background-color: #ebf2ff;
+    order: 2;
+    row-gap: 20px;
+}
+
+.about-me .photo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.photo img {
+    max-width: 220px;
+    height: 240px;
+    border-radius: 50%;
+    z-index: 10
+}
+
+div.about-me section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    row-gap: 12px;
+}
+
+div.about-me h3 {
+    width: 100%;
+    padding: 4px 0 2px;
+    border-bottom: 3px solid #4682b4;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+div.about-me .section-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-me .section-content ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 10px;
+    font-size: 0.95em;
+}
+
+.section-content .email {
+    position: relative;
+    top: 5px;
+    margin-right: 3px;
+    font-size: 20px;
+}
+
+.section-content .phone {
+    position: relative;
+    top: 3px;
+    left: 1px;
+    margin-right: 4px;
+    font-size: 18px;
+}

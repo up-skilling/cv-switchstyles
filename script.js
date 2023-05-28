@@ -1,5 +1,5 @@
 function switchStyles() {
-    let linkTag = document.getElementsByTagName('link')[0];
+    let linkTag = document.getElementsByTagName('link')[1];
     let currentStylesheet = linkTag.href.replace(/^.*[\\\/]/, '');
     let newStylesheet = this.options[this.selectedIndex].value + '.css';
 

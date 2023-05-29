@@ -35,19 +35,6 @@ html {
     justify-content: center;
 }
 
-/*body {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    width: 100%;*/
-/*    max-width: 1080px;*/
-/*    height: 1200px;*/
-/*    font-family: 'Poppins', sans-serif;*/
-/*}*/
-
-/*h1, h2, h3, h4, h5, h6 {*/
-/*    font-family: 'Spectral', serif;*/
-/*}*/
-
 .bold {
     font-weight: bold;
 }
@@ -56,64 +43,7 @@ h2, h3 {
     text-transform: uppercase;
 }
 
-/*** header ***/
-/*.header {*/
-/*    display: flex;*/
-/*    justify-content: end;*/
-/*    width: calc(100% - 4px);*/
-/*    order: 1;*/
-/*    padding-top: 25px;*/
-/*    background-color: #ffe49d;*/
-/*}*/
-
-/*.header-div {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    width: calc(74% - 50px);*/
-/*    max-width: 750px;*/
-/*    padding-right: 30px;*/
-/*}*/
-
-/*.header-div div {*/
-/*    padding: 0 5px 0 1px;*/
-/*}*/
-
-/*.header-div h1, .header-div h2 {*/
-/*    margin-bottom: 16px;*/
-/*}*/
-
-/*.header hr {*/
-/*    width: 100%;*/
-/*    height: 3px;*/
-/*    background-color: black;*/
-/*    color: black;*/
-/*}*/
-
-/*.presentation {*/
-/*    position: relative;*/
-/*    top: 46px;*/
-/*    text-align: justify;*/
-/*}*/
-
-/*.presentation p:last-child {*/
-/*    position: relative;*/
-/*    top: 34px;*/
-/*}*/
-
 /*** main ***/
-/*main {*/
-/*    position: relative;*/
-/*    top: 100px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    width: calc(74% - 50px);*/
-/*    max-width: 756px;*/
-/*    order: 4;*/
-/*    padding: 0 24px;*/
-/*    row-gap: 20px;*/
-/*}*/
-
 main > section {
     display: flex;
     flex-direction: column;
@@ -121,17 +51,6 @@ main > section {
     width: 100%;
     row-gap: 12px;
 }
-
-/*main h3 {*/
-/*    width: 100%;*/
-/*    padding: 4px 0 2px;*/
-/*    background-color: black;*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*    font-weight: normal;*/
-/*    font-size: 1em;*/
-/*    letter-spacing: 1px;*/
-/*}*/
 
 article {
     display: flex;
@@ -158,10 +77,6 @@ article header p, .div-header p {
     width: 100%;
 }
 
-/*.organisation {*/
-/*    color: #15697D;*/
-/*}*/
-
 article > ul {
     display: flex;
     flex-direction: column;
@@ -182,72 +97,18 @@ article > ul {
     content: " /";
 }
 
-/*** ligne-verticale ***/
-/*.vertical-line {*/
-/*    position: relative;*/
-/*    top: 18px;*/
-/*    left: 0;*/
-/*    height: 850px;*/
-/*    width: 4px;*/
-/*    background: black;*/
-/*    order: 3;*/
-/*}*/
-
 /*** div.about-me ***/
-/*div.about-me {*/
-/*    position: relative;*/
-/*    top: -225px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    width: 25%;*/
-/*    max-width: 322px;*/
-/*    order: 2;*/
-/*    row-gap: 20px;*/
-/*}*/
-
 .about-me .photo {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
 }
 
-/*.photo img {*/
-/*    max-width: 218px;*/
-/*}*/
-
-/*div.about-me section {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    width: 218px;*/
-/*    row-gap: 12px;*/
-/*}*/
-
-/*div.about-me h3 {*/
-/*    width: 100%;*/
-/*    padding: 4px 0 2px;*/
-/*    background-color: black;*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*    font-weight: normal;*/
-/*    font-size: 1em;*/
-/*    letter-spacing: 1px;*/
-/*}*/
-
 div.about-me .section-content {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-
-/*.about-me .section-content ul {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    width: 100%;*/
-/*    row-gap: 4px;*/
-/*    font-size: 0.95em;*/
-/*}*/
 
 .section-content .email {
     position: relative;
@@ -263,28 +124,3 @@ div.about-me .section-content {
     margin-right: 4px;
     font-size: 18px;
 }
-
-/*** div.theme-selector ***/
-/*div.theme-selector {*/
-/*    position: relative;*/
-/*    top: -180px;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    width: 100%;*/
-/*    column-gap: 10px;*/
-/*    order: 5;*/
-/*}*/
-
-/*.theme-selector label {*/
-/*    color: #15697D;*/
-/*}*/
-
-/*.theme-selector select {*/
-/*    padding: 5px 8px;*/
-/*    background-color: black;*/
-/*    color: white;*/
-/*    border: none;*/
-/*    border-radius: 6px;*/
-/*    font-size: 1em;*/
-/*}*/
